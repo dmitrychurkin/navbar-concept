@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="/js/app.js"></script>
+    <title>Example navbar</title>
+</head>
+
+<body>
+    <header class="js-navbar navbar">
+        <div class="container">
+            <a class="logo" href="/">
+                <span class="logo-text">GoDoggy</span>
+            </a>
+            <div class="js-group group-donate">
+                <a href="/donate" class="btn">Donate</a>
+                <button class="js-menu menu-burger" type="button" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i></i>
+                </button>
+            </div>
+        </div>
+        <nav id="navbarSupportedContent" class="js-nav-main nav-main">
+            <form class="js-search-form search-form" method="POST" action="/search">
+                <input class="ipt" placeholder="Search" name="search" maxlength="128" />
+                <button class="btn" type="submit">Submit</button>
+            </form>
+            <ul class="nav">
+                <li>
+                    <a href="/" class="link" aria-haspopup="true">
+                        Overview
+                    </a>
+                </li>
+                <li>
+                    <a href="/accommodation" class="link" aria-haspopup="true">
+                        <span>Accommodation</span>
+                        <div class="js-toggle link-toggle">
+                            <svg class="icon">
+                                <use href="#icon-dropdown" />
+                            </svg>
+                        </div>
+                    </a>
+                    <div class="js-sub sub-nav">
+                        <ul aria-label="submenu">
+                            <li>
+                                <a href="/accommodation/beach-studio" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Beach Studio</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/accommodation/ocean-studio" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Ocean Studio</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/accommodation/bay-suite" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Bay Suite</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/accommodation/beach-villa" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Beach Villa</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="/dining" class="link" aria-haspopup="true">
+                        <span>Dining</span>
+                        <div class="js-toggle link-toggle">
+                            <svg class="icon">
+                                <use href="#icon-dropdown" />
+                            </svg>
+                        </div>
+                    </a>
+                    <div class="js-sub sub-nav">
+                        <ul aria-label="submenu">
+                            <li>
+                                <a href="/dining/restaurant" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Restaurant</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/dining/private-dining" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Private Dining</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="/spa" class="link" aria-haspopup="true">
+                        Spa
+                    </a>
+                </li>
+                <li>
+                    <a href="/leisure" class="link" aria-haspopup="true">
+                        <span>Leisure</span>
+                        <div class="js-toggle link-toggle">
+                            <svg class="icon">
+                                <use href="#icon-dropdown" />
+                            </svg>
+                        </div>
+                    </a>
+                    <div class="js-sub sub-nav">
+                        <ul aria-label="submenu">
+                            <li>
+                                <a href="/leisure/attractions" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Attractions</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/leisure/things-to-do" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Things To Do</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/leisure/water-sports" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Water Sports</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/leisure/facilities" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Facilities</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="/functions" class="link" aria-haspopup="true">
+                        <span>Weddings & Events</span>
+                        <div class="js-toggle link-toggle">
+                            <svg class="icon">
+                                <use href="#icon-dropdown" />
+                            </svg>
+                        </div>
+                    </a>
+                    <div class="js-sub sub-nav">
+                        <ul aria-label="submenu">
+                            <li>
+                                <a href="/functions/weddings" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Weddings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/functions/honeymoons" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Honeymoons</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/functions/corporate" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Corporate Events</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="/offers" class="link" aria-haspopup="true">
+                        Special Offers
+                    </a>
+                </li>
+                <li>
+                    <a href="/location" class="link" aria-haspopup="true">
+                        <span>Location</span>
+                        <div class="js-toggle link-toggle">
+                            <svg class="icon">
+                                <use href="#icon-dropdown" />
+                            </svg>
+                        </div>
+                    </a>
+                    <div class="js-sub sub-nav">
+                        <ul aria-label="submenu">
+                            <li>
+                                <a href="/location/transportation" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Transportation</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/location/weather" class="sub-link">
+                                    <div class="label">
+                                        <svg>
+                                            <use href="#icon-label" />
+                                        </svg>
+                                    </div>
+                                    <span>Weather</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="/gallery" class="link" aria-haspopup="true">
+                        Gallery
+                    </a>
+                </li>
+                <li>
+                    <a href="/contacts" class="link" aria-haspopup="true">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="svg-symbols">
+            <svg>
+                <symbol viewBox="0 0 10 5.469" id="icon-dropdown" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M5 5.469a.468.468 0 0 1-.331-.137L.137.8A.469.469 0 0 1 .8.137l4.2 4.2 4.2-4.2A.469.469 0 0 1 9.863.8L5.332 5.332A.474.474 0 0 1 5 5.469z" />
+                </symbol>
+                <symbol viewBox="0 0 24 24" id="icon-label" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" d="M0 0h24v24H0V0z" />
+                    <path d="M4 18.99h12.04L21 12l-4.97-7H4l5 7-5 6.99z" />
+                </symbol>
+            </svg>
+        </div>
+    </header>
+</body>
+
+</html>
